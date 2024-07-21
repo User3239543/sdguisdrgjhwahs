@@ -15,7 +15,37 @@ ConsoleLog:Prompt({
     },
     Type = "warning"
 })
-wait(12)
+wait(3)
+ConsoleLog:Prompt({
+    Title = "Failed, Retrying...",
+    TypesWeHave = {
+        "default",
+        "success",
+        "fail",
+        "warning",
+        "nofitication"
+    },
+    Type = "fail"
+})
+wait(1)
+ConsoleLog:Prompt({
+    Title = "Failed, Retrying...",
+    TypesWeHave = {
+        "default",
+        "success",
+        "fail",
+        "warning",
+        "nofitication"
+    },
+    Type = "fail"
+})
+
+
+
+
+
+
+wait(4)
 ConsoleLog:Prompt({
     Title = "Completed",
     TypesWeHave = {
